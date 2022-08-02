@@ -1,0 +1,5 @@
+#glow{
+    filter: drop-shadow(2px 2px 20px rgba(3, 255, 116, 0.739));
+    color: rgba(3, 255, 116, .8);
+}
+

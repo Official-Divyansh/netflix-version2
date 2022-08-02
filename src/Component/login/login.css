@@ -1,0 +1,32 @@
+#login-input{
+    /* padding-left: 7px; */
+    padding: 9px 30px;
+    width: 70%;
+    margin-top: 30px;
+    height: 50px;
+    background: rgb(58, 58, 58);
+    border-radius: 3px;
+    color: white;
+   outline: none;
+}
+#login-input::placeholder{
+    color: rgb(184, 184, 184);
+    transition: .2s;
+
+}
+#login-input:hover::placeholder{
+    transform: translateY(-13px);
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+#login-input:focus::placeholder{
+    transform: translateY(-12px);
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 800px){
+    #login-input{
+        width: 100%;
+    }
+}
